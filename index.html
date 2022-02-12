@@ -5,6 +5,11 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <!-- Shadows Into Light -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    
     <!-- Open Sans -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -33,6 +38,24 @@
   <body>
     
     <!-- Nav Bar -->
+    <nav class="navbar navbar-light">
+      <div class="container-fluid" id="nav">
+        <div class="navbar-brand text-primary" id="brand">Welcome to my Portfolio!</div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <div id="links">
+            <a class="nav-link nav-item" href="#city">City</a>
+            <a class="nav-link nav-item" href="#canyon">Canyon</a>
+            <a class="nav-link nav-item" href="#halfdome">Yosemite</a>
+            <a class="nav-link nav-item" href="#fire">Valley of Fire</a>
+            <a class="nav-link nav-item" href="#beach">Beach</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
 
 
 
@@ -40,7 +63,8 @@
     <div class="bg-danger">
       <div class="row">
         <!-- My name title -->
-        <div class="col-6 d-flex justify-content-center align-items-center bg-danger flex-column text-light">
+        <div class="col-12 col-sm-6 d-flex justify-content-center align-items-center bg-danger flex-column text-light">
+          <img src="IMG/me.jpg" id="mypic" class="img-fluid">
           <div id="name" class="mb-3">
             Milton Huynh
           </div>
@@ -48,7 +72,7 @@
             Hello, I am a working professional in the biotechnology industry with an interest in website development and computer programming. I have written programs with Python, C and C++ and am currently learning how to put together HTML, CSS and Bootstrap to create responsive websites. This website was created for my final project to showcase what I learned during a Mobile Friendly Websites course.
           </div>
         </div>
-        <div class="col-6">
+        <div class="col-12 col-sm-6">
           <!-- Carousel -->
           <div class="w-100">  
             <div id="carouselExampleDark" class="carousel slide" data-bs-ride="carousel">
@@ -63,31 +87,31 @@
                 <div class="carousel-item active" data-bs-interval="3000">
                   <img src="IMG/sl.jpg" class="d-block w-100" alt="...">
                   <div class="carousel-caption d-none d-md-block">
-                    <p class="bg-dark text-light">Born and raised in San Leandro.</p>
+                    <p class="bg-dark text-light opacity-75 fs-5">Born and raised in San Leandro.</p>
                   </div>
                 </div>
                 <div class="carousel-item" data-bs-interval="3000">
                   <img src="IMG/davis.jpg" class="d-block w-100" alt="...">
                   <div class="carousel-caption d-none d-md-block">
-                    <p class="bg-dark text-light">Finished my undergraduate degree at UC Davis from 2014 to 2019.</p>
+                    <p class="bg-dark text-light opacity-75 fs-5">Finished my undergraduate degree at UC Davis from 2014 to 2019.</p>
                   </div>
                 </div>
                 <div class="carousel-item" data-bs-interval="3000">
                   <img src="IMG/micro.jpg" class="d-block w-100" alt="...">
                   <div class="carousel-caption d-none d-md-block">
-                    <p class="bg-dark text-light">Majored in Microbiology with a minor in Computer Science</p>
+                    <p class="bg-dark text-light opacity-75 fs-5">Majored in Microbiology with a minor in Computer Science</p>
                   </div>
                 </div>
                 <div class="carousel-item" data-bs-interval="3000">
                   <img src="IMG/work.jpg" class="d-block w-100" alt="...">
                   <div class="carousel-caption d-none d-md-block">
-                    <p class="bg-dark text-light">Worked in biotechnology industry after college, specialized in next generation sequencing.</p>
+                    <p class="bg-dark text-light opacity-75 fs-5">Worked in biotechnology industry after college, specialized in next generation sequencing.</p>
                   </div>
                 </div>
                 <div class="carousel-item" data-bs-interval="3000">
                   <img src="IMG/acts.jpg" class="d-block w-100" alt="...">
                   <div class="carousel-caption d-none d-md-block">
-                    <p class="bg-dark text-light">Some of my favorite activities are playing tennis, working out at the gym, playing video games and cooking.</p>
+                    <p class="bg-dark text-light opacity-75 fs-5">Some of my favorite activities are playing tennis, working out at the gym, playing video games and cooking.</p>
                   </div>
                 </div>
               </div>
@@ -107,13 +131,13 @@
 
     <!-- Example Website-->
     <div class="row bg-primary text-light">
-      <div class="col text-center p-3" id="example_title">
+      <div class="col text-center pt-5" id="example_title">
         Here's an example of a website I created during Mobile Friendly Websites.
       </div>
     </div>
     <div class="row bg-primary text-light p-3">
       <div class="col text-center" id="example_link">
-        <a href="https://miltonhuynh.github.io/parallax-practice/" class="text-light"><button class="btn btn-warning btn-lg mb-3 py-3">>> CLICK HERE <<</button></a>
+        <a href="https://miltonhuynh.github.io/parallax-practice/" class="text-light"><button class="btn btn-warning btn-lg my-5 py-3 px-5">>> CLICK HERE <<</button></a>
       </div>
     </div>
 
@@ -123,14 +147,14 @@
         <div id="interview_title" class="pt-3 text-light">
         My answers to common interview questions:
         </div>
-      <div class="accordion p-3" id="accordionExample">
+      <div class="accordion py-3" id="accordionbody">
         <div class="accordion-item">
           <h2 class="accordion-header" id="headingOne">
             <button class="accordion-button bg-dark text-light" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
               Why are you interested in technology and computer programming?
             </button>
           </h2>
-          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+          <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionbody">
             <div class="accordion-body">
               <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
             </div>
@@ -142,7 +166,7 @@
               Where do you see yourself in the next 3-5 years?
             </button>
           </h2>
-          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionbody">
             <div class="accordion-body">
               <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
             </div>
@@ -154,7 +178,31 @@
               Can you describe your dream job?
             </button>
           </h2>
-          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionbody">
+            <div class="accordion-body">
+              <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingThree">
+            <button class="accordion-button bg-dark text-light" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+              What are some of your weaknesses?
+            </button>
+          </h2>
+          <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionbody">
+            <div class="accordion-body">
+              <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingThree">
+            <button class="accordion-button bg-dark text-light" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+              Tell me about your experience with computer programming.
+            </button>
+          </h2>
+          <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionbody">
             <div class="accordion-body">
               <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
             </div>

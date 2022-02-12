@@ -1,18 +1,32 @@
+.navbar {
+    position: fixed;
+    z-index: 9999;
+    width: 100%;
+    background-color: rgb(255,255,255,0.7);
+}
+
+#mypic {
+    border-radius: 50%;
+    border: 10px solid white;
+    width: 12vw;
+}
+
+
 #name {
     vertical-align: middle;
     font-family: 'Open Sans', sans-serif;
-    font-size: 5vw;
+    font-size: 3vw;
 }
 
 #description {
     vertical-align: middle;
     font-family: 'Open Sans', sans-serif;
-    font-size: 1vw;
+    font-size: 0.8vw;
 }
 
 #example_title {
     font-family: 'Abel', sans-serif;
-    font-size: 2.5vw;
+    font-size: 3vw;
 }
 
 #example_link {
@@ -23,4 +37,19 @@
 #interview_title {
     font-family: 'Architects Daughter', cursive;
     font-size: 2vw;
+}
+
+#accordionbody {
+    padding-left: 15vw;
+    padding-right: 15vw;
+}
+
+#brand {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 2vw;
+}
+
+#links {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 1.5vw;
 }
