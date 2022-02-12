@@ -10,3 +10,17 @@
     font-size: 1vw;
 }
 
+#example_title {
+    font-family: 'Abel', sans-serif;
+    font-size: 2.5vw;
+}
+
+#example_link {
+    font-family: 'Abel', sans-serif;
+    font-size: 2.5vw;
+}
+
+#interview_title {
+    font-family: 'Architects Daughter', cursive;
+    font-size: 2vw;
+}
