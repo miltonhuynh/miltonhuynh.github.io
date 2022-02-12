@@ -55,6 +55,10 @@
     font-size: 1.5vw;
 }
 
-.social_button:hover {
+.social_button {
     font-size: 2.5rem;
+    transition: all .75s ease;
+}
+.social_button:hover {
+    font-size: 4rem;
 }
