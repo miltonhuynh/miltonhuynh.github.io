@@ -8,14 +8,14 @@
 #mypic {
     border-radius: 50%;
     border: 10px solid white;
-    width: 12vw;
+    width: 10vw;
 }
 
 
 #name {
     vertical-align: middle;
     font-family: 'Open Sans', sans-serif;
-    font-size: 3vw;
+    font-size: 2.5vw;
 }
 
 #description {
@@ -46,10 +46,14 @@
 
 #brand {
     font-family: 'Shadows Into Light', cursive;
-    font-size: 2vw;
+    font-size: 1.5vw;
 }
 
 #links {
     font-family: 'Shadows Into Light', cursive;
     font-size: 1.5vw;
+}
+
+.social_button:hover {
+    font-size: 2.5rem;
 }
