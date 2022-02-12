@@ -9,26 +9,35 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Shadows Into Light -->
+    <!-- FONT: Genos-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Genos:wght@200&display=swap" rel="stylesheet">
+
+    <!-- FONT: Shadows Into Light -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Shadows+Into+Light&display=swap" rel="stylesheet">
     
-    <!-- Open Sans -->
+    <!-- FONT: Open Sans -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
 
-    <!-- Abel -->
+    <!-- FONT: Abel -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
 
-    <!-- Architects Daughter -->
+    <!-- FONT: Architects Daughter -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
       
+    <!-- FONT: Dosis -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Dosis:wght@300&display=swap" rel="stylesheet">
     
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
@@ -50,11 +59,10 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <div id="links">
-            <a class="nav-link nav-item" href="#city">City</a>
-            <a class="nav-link nav-item" href="#canyon">Canyon</a>
-            <a class="nav-link nav-item" href="#halfdome">Yosemite</a>
-            <a class="nav-link nav-item" href="#fire">Valley of Fire</a>
-            <a class="nav-link nav-item" href="#beach">Beach</a>
+            <a class="nav-link nav-item" href="#intro">Introduction</a>
+            <a class="nav-link nav-item" href="#example">Example Website</a>
+            <a class="nav-link nav-item" href="#accordions">Accordions</a>
+            <a class="nav-link nav-item" href="#contact">Contact Me</a>
           </div>
         </div>
       </div>
@@ -65,9 +73,9 @@
 
     <!-- Introduction and Carousel -->
     <div class="bg-danger">
-      <div class="row">
+      <div class="row" id="intro">
         <!-- My name title -->
-        <div class="col-12 col-sm-6 d-flex justify-content-center align-items-center bg-danger flex-column text-light">
+        <div class="col-12 col-md-6 d-flex justify-content-center align-items-center bg-danger flex-column text-light">
           <img src="IMG/me.jpg" id="mypic" class="img-fluid">
           <div class="text-white">
             <a href="https://www.facebook.com"><i class="social_button fab fa-facebook h3 p-2 social text-light"></i></a>
@@ -83,7 +91,7 @@
             Hello, I am a working professional in the biotechnology industry with an interest in website development and computer programming. I have written programs with Python, C and C++ and am currently learning how to put together HTML, CSS and Bootstrap to create responsive websites. This website was created for my final project to showcase what I learned during a Mobile Friendly Websites course.
           </div>
         </div>
-        <div class="col-12 col-sm-6">
+        <div class="col-12 col-md-6">
           <!-- Carousel -->
           <div class="w-100">  
             <div id="carouselExampleDark" class="carousel slide" data-bs-ride="carousel">
@@ -141,7 +149,7 @@
     </div>
 
     <!-- Example Website-->
-    <div class="row bg-primary text-light">
+    <div class="row bg-primary text-light" id="example">
       <div class="col text-center pt-5" id="example_title">
         Here's an example of a website I created during Mobile Friendly Websites.
       </div>
@@ -154,68 +162,68 @@
 
 
     <!-- Accordions -->
-    <div class="bg-success text-center">
+    <div class="bg-success text-center pb-5" id="accordions">
         <div id="interview_title" class="pt-3 text-light">
         My answers to common interview questions:
         </div>
       <div class="accordion py-3" id="accordionbody">
         <div class="accordion-item">
           <h2 class="accordion-header" id="headingOne">
-            <button class="accordion-button bg-dark text-light" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            <button class="accordion-button bg-dark text-light question" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
               Why are you interested in technology and computer programming?
             </button>
           </h2>
           <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionbody">
-            <div class="accordion-body bg-light">
+            <div class="accordion-body  answer">
               I enjoy solving problems using logic and critical thinking and how code can create so many useful applications.
             </div>
           </div>
         </div>
         <div class="accordion-item">
           <h2 class="accordion-header" id="headingTwo">
-            <button class="accordion-button bg-dark text-light" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            <button class="accordion-button bg-dark text-light question" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
               Where do you see yourself in the next 3-5 years?
             </button>
           </h2>
           <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionbody">
-            <div class="accordion-body">
-              <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+            <div class="accordion-body answer">
+              I see myself creating useful applications for a wide range of users and work with an amazing team to support me.
             </div>
           </div>
         </div>
         <div class="accordion-item">
           <h2 class="accordion-header" id="headingThree">
-            <button class="accordion-button bg-dark text-light" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            <button class="accordion-button bg-dark text-light question" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
               Can you describe your dream job?
             </button>
           </h2>
           <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionbody">
-            <div class="accordion-body">
-              <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+            <div class="accordion-body answer">
+              My dream job would be one in which I can help others using my knowledge and effort.
             </div>
           </div>
         </div>
         <div class="accordion-item">
           <h2 class="accordion-header" id="headingThree">
-            <button class="accordion-button bg-dark text-light" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+            <button class="accordion-button bg-dark text-light question" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
               What are some of your weaknesses?
             </button>
           </h2>
           <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionbody">
-            <div class="accordion-body">
-              <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+            <div class="accordion-body answer">
+              I tend to focus too much on one task and forget about other tasks, I also take on too many tasks and end up not meeting my deadlines.
             </div>
           </div>
         </div>
         <div class="accordion-item">
           <h2 class="accordion-header" id="headingThree">
-            <button class="accordion-button bg-dark text-light" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+            <button class="accordion-button bg-dark text-light question" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
               Tell me about your experience with computer programming.
             </button>
           </h2>
           <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionbody">
-            <div class="accordion-body">
-              <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+            <div class="accordion-body answer">
+              I've taken some programming courses in high school and undergrad but I am mostly a beginnner, always learning!
             </div>
           </div>
         </div>
@@ -225,6 +233,32 @@
 
 
     <!-- Contact Form -->
+    <div id="contact">  
+      <div class="row" id="contact_title">
+        <div class="col text-center py-3 text-light">
+          Interested in learning more? Please contact me!
+        </div>
+      </div>
+      <div class="row pb-5">
+        <form class="w-100 d-flex flex-column align-items-center">
+          <div class="form-group">
+            <label for="nameinput" class="text-light formtitles">Name</label>
+            <input type="email" class="form-control" id="nameinput" placeholder="First and Last name">
+          </div>
+          <div class="form-group">
+            <label for="emailinput" class="text-light formtitles">Email</label>
+            <input type="email" class="form-control" id="emailinput" placeholder="Full email address">
+          </div>
+          <div class="form-group">
+            <label for="questioninput" class="text-light formtitles">What is your question?</label>
+            <textarea class="form-control" id="questioninput" rows="3" placeholder="Type your question here"></textarea>
+          </div>
+          <button type="submit" class="btn btn-light m-3" id="submitbutton">Submit</button>
+        </form>
+      </div>
+    </div>
+
+  
 
 
 

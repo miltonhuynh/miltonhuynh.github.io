@@ -10,6 +10,18 @@
     border-radius: 50%;
     border: 0.5vw solid white;
     width: 10vw;
+    transition: all .3s ease;
+
+}
+
+@media (max-width: 1000px) {
+    #mypic {
+        display: none;
+    }
+}
+
+#mypic:hover {
+    width: 12.5vw;
 }
 
 
@@ -17,12 +29,22 @@
     vertical-align: middle;
     font-family: 'Open Sans', sans-serif;
     font-size: 2.5vw;
+    transition: all .3s ease;
+}
+
+#name:hover {
+    font-size: 3vw;
 }
 
 #description {
     vertical-align: middle;
     font-family: 'Open Sans', sans-serif;
-    font-size: 0.8vw;
+    font-size: 0.9vw;
+    transition: all .3s ease;
+}
+
+#description:hover {
+    font-size: 1.1vw;
 }
 
 #example_title {
@@ -37,7 +59,7 @@
 
 #interview_title {
     font-family: 'Architects Daughter', cursive;
-    font-size: 2vw;
+    font-size: 3.5vw;
 }
 
 #accordionbody {
@@ -51,14 +73,71 @@
 }
 
 #links {
-    font-family: 'Shadows Into Light', cursive;
+    font-family: 'Dosis', sans-serif;
     font-size: 1.5vw;
 }
 
 .social_button {
-    font-size: 2.5rem;
-    transition: all .75s ease;
+    font-size: 2vw;
+    transition: all .3s ease;
 }
+
 .social_button:hover {
-    font-size: 4rem;
+    font-size: 3.5vw;
+}
+
+#contact {
+    background-color: black;
+}
+
+#contact_title {
+    font-family: 'Genos', sans-serif;
+    font-size: 4vw;
+}
+
+#nameinput {
+    width: 30vw;
+    text-align: center;
+}
+
+#emailinput {
+    width: 30vw;
+    text-align: center;
+}
+
+#questioninput {
+    width: 30vw;
+    text-align: center;
+}
+
+.formtitles {
+    font-family: 'Genos', sans-serif;
+    font-size: 2vw;
+}
+
+#submitbutton {
+    font-size: 1.2vw;
+    transition: all .3s ease;
+    width: 15vw;
+}
+
+#submitbutton:hover {
+    font-size: 1.5vw;
+}
+
+.answer {
+    font-size: 1.2vw
+}
+
+.question {
+    font-size: 1.5vw;
+}
+
+.accordion-button {
+    transition: all 0.5s ease;
+    font-size: 1.5vw;
+}
+
+.accordion-button:hover {
+    font-size: 1.7vw;
 }
