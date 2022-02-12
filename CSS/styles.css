@@ -1,13 +1,14 @@
 .navbar {
-    position: fixed;
     z-index: 9999;
     width: 100%;
-    background-color: rgb(255,255,255,0.7);
+    background-color: rgba(255, 255, 255, 0.85);
+    top: 0;
 }
+
 
 #mypic {
     border-radius: 50%;
-    border: 10px solid white;
+    border: 0.5vw solid white;
     width: 10vw;
 }
 
@@ -46,7 +47,7 @@
 
 #brand {
     font-family: 'Shadows Into Light', cursive;
-    font-size: 1.5vw;
+    font-size: 2vw;
 }
 
 #links {
