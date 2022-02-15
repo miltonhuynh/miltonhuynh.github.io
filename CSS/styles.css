@@ -28,7 +28,7 @@
 #name {
     vertical-align: middle;
     font-family: 'Open Sans', sans-serif;
-    font-size: 2.5vw;
+    font-size: 2.5rem;
     transition: all .3s ease;
 }
 
@@ -39,7 +39,7 @@
 #description {
     vertical-align: middle;
     font-family: 'Open Sans', sans-serif;
-    font-size: 0.9vw;
+    font-size: 0.8rem;
     transition: all .3s ease;
 }
 
@@ -49,7 +49,7 @@
 
 #example_title {
     font-family: 'Abel', sans-serif;
-    font-size: 3vw;
+    font-size: 2rem;
 }
 
 #example_link {
@@ -59,7 +59,7 @@
 
 #interview_title {
     font-family: 'Architects Daughter', cursive;
-    font-size: 3.5vw;
+    font-size: 2.5rem;
 }
 
 #accordionbody {
@@ -69,21 +69,21 @@
 
 #brand {
     font-family: 'Shadows Into Light', cursive;
-    font-size: 2vw;
+    font-size: 2rem;
 }
 
 #links {
     font-family: 'Dosis', sans-serif;
-    font-size: 1.5vw;
+    font-size: 1.5rem;
 }
 
 .social_button {
-    font-size: 2vw;
+    font-size: 2rem;
     transition: all .3s ease;
 }
 
 .social_button:hover {
-    font-size: 3.5vw;
+    font-size: 3rem;
 }
 
 #contact {
@@ -92,52 +92,48 @@
 
 #contact_title {
     font-family: 'Genos', sans-serif;
-    font-size: 4vw;
+    font-size: 2.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
 #nameinput {
-    width: 30vw;
     text-align: center;
 }
 
 #emailinput {
-    width: 30vw;
     text-align: center;
 }
 
 #questioninput {
-    width: 30vw;
     text-align: center;
 }
 
 .formtitles {
     font-family: 'Genos', sans-serif;
-    font-size: 2vw;
+    font-size: 2rem;
 }
 
 #submitbutton {
-    font-size: 1.2vw;
+    font-size: 1rem;
     transition: all .3s ease;
-    width: 15vw;
+    margin: 1rem;
 }
 
 #submitbutton:hover {
-    font-size: 1.5vw;
+    font-size: 1.2rem;
 }
 
 .answer {
-    font-size: 1.2vw
+    font-size: 1rem;
 }
 
-.question {
-    font-size: 1.5vw;
-}
 
 .accordion-button {
     transition: all 0.5s ease;
-    font-size: 1.5vw;
+    font-size: 1rem;
 }
 
 .accordion-button:hover {
-    font-size: 1.7vw;
+    font-size: 1.2rem;
 }
