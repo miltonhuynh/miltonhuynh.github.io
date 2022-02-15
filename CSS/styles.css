@@ -14,12 +14,12 @@
     border: 0.5vw solid white;
     width: 15rem;
     transition: all .3s ease;
+    margin-top: 1.5rem;
 }
 
 @media (max-width: 1000px) {
     #mypic {
        width: 10rem;
-       margin-top: 1rem;
     }
 }
 
