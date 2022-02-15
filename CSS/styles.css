@@ -5,23 +5,26 @@
     top: 0;
 }
 
+.caption {
+    font-size: 1.2rem;
+}
 
 #mypic {
     border-radius: 50%;
     border: 0.5vw solid white;
-    width: 10vw;
+    width: 15rem;
     transition: all .3s ease;
-
 }
 
 @media (max-width: 1000px) {
     #mypic {
-        display: none;
+       width: 10rem;
+       margin-top: 1rem;
     }
 }
 
 #mypic:hover {
-    width: 12.5vw;
+    width: 17rem;
 }
 
 
