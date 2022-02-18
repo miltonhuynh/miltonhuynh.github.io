@@ -101,26 +101,32 @@
 
 #contact_title {
     font-family: 'Genos', sans-serif;
-    font-size: 2.5rem;
+    font-size: 3rem;
     padding-left: 1rem;
     padding-right: 1rem;
 }
 
 #nameinput {
     text-align: center;
+    width: 10rem;
+    font-size: 0.8rem;
 }
 
 #emailinput {
     text-align: center;
+    font-size: 0.8rem;
+
 }
 
 #questioninput {
     text-align: center;
+    width: 22rem;
+    font-size: 0.8rem;
 }
 
 .formtitles {
-    font-family: 'Genos', sans-serif;
-    font-size: 2rem;
+    font-family: 'Patrick Hand SC', cursive;
+    font-size: 2.5rem;
 }
 
 #submitbutton {
@@ -146,3 +152,14 @@
 .accordion-button:hover {
     font-size: 1.2rem;
 }
+
+#select_title {
+    width: 22rem;
+    color: white;
+    font-size: 2rem;
+}
+
+#select_bar {
+    width: 22rem;
+}
+
